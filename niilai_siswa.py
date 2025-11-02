@@ -13,7 +13,7 @@ def main():
             return
         
         rata_rata = (nilai_a + nilai_b) / 2
-        
+
         if rata_rata >= 75:
             status = "LULUS dengan predikat BAIK"
         elif rata_rata >= 60:
@@ -32,8 +32,5 @@ def main():
         
     except ValueError:
         print("\nError: Masukkan angka yang valid!")
-    except Exception as e:
-        print(f"\nTerjadi kesalahan: {e}")
-
-if __name__ == "__main__":
-    main()
+        
+main()
